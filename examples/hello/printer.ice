@@ -1,5 +1,5 @@
 module Examples {
-       interface Printer {
-       		 void printString( string s );
-	};
+  interface Printer {
+    void printString( string s );
+  };
 };
