@@ -9,6 +9,7 @@ SET(ZeroCIce_FIND_REQIRED TRUE)    # Really can't continue build steps without I
 SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake-modules/ZeroCIce-find)
 find_package(ZeroCIce)
 #######
+include(${PROJECT_SOURCE_DIR}/cmake-modules/Slice2Cpp.cmake)
 
 
 set(CMAKE_CXX_FLAGS "-g -Wall")
